@@ -1,7 +1,7 @@
 from core.api.api import core
 
 class box(core.block):
-    name = 'Каробка'
+    name = 'Коробка'
     surname = 'box'
     texture = core.texture('asets/box.bmp', clear=(255, 255, 255))
     sticky = False
